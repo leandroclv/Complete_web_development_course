@@ -15,3 +15,33 @@ body{
     padding: 30px;
     width: 300px;
 }
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f2f2e8;
+    border: 1px solid black;
+}
+
+button{
+    background-color: #1b81da;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blue;
+}
